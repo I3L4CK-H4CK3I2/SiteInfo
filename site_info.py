@@ -48,10 +48,10 @@ def site_information(domain:str):
         print(f'{red} [!] Connection Failed !{reset}')
 
 def usage():
-    print(f'{error} Usage   : python SiteInfo.py [host or ip] [port range]{reset}')
-    print(f'{error} Example : python SiteInfo.py 31.13.72.174 80-85{reset}')
-    print(f'{error} Example : python SiteInfo.py instagram.com 80-85{reset}')
-    print(f'{error} Example : python SiteInfo.py https://www.instagram.com 80-85{reset}')
+    print(f'{error} Usage   : python SiteInfo.py [host or ip]{reset}')
+    print(f'{error} Example : python SiteInfo.py 31.13.72.174{reset}')
+    print(f'{error} Example : python SiteInfo.py instagram.com {reset}')
+    print(f'{error} Example : python SiteInfo.py https://www.instagram.com{reset}')
     sys.exit()
 
 def main():
